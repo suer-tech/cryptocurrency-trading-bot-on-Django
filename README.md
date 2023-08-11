@@ -23,5 +23,5 @@ Multi-cryptocurrency trading bot trades futures on the Binance exchange with maj
 A risk hedging and dual-direction trading strategy is applied, enabling both long and short positions simultaneously. This ensures independence from the price movement direction. Stop-loss and take-profit are not set as static values; their calculation and adjustment are continuous.
 
 # Settings
-To connect to your account, you need to enter your API keys in the services/api_keys.py file.
-To connect the Telegram bot, you need to enter your Telegram user_id and your Telegram bot's token in the views/tg_token.py file.
+To connect to your account, you need to enter your API keys in the bot/services/api_keys.py file.
+To connect the Telegram bot, you need to enter your Telegram user_id and your Telegram bot's token in the bot/sviews/tg_token.py file.
