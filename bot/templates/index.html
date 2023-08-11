@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Моя страница</title>
+</head>
+<body>
+    <section class="welcom">
+        <h1>Добро пожаловать на страницу отображения результатов торговли!</h1>
+
+    <form method="post">
+		{% csrf_token %}
+        <button type="submit" name="pnl_a">PNL(Нереализованная прибыль) A</button>
+    </form>
+
+    <form method="post">
+		{% csrf_token %}
+        <button type="submit" name="pnl_b">PNL(Нереализованная прибыль) B</button>
+    </form>
+
+
+	{% if pnl_a %}
+		<h2>PNL A:</h2>
+		<p>{{ pnl_a }}</p>
+	{% endif %}
+
+    {% if pnl_b %}
+        <h2>PNL B:</h2>
+            <ul>
+                {% for line in pnl_b %}
+                    <li style="text-indent: 1em">{{ line }}</li>
+                {% endfor %}
+            </ul>
+    {% endif %}
+    </section>
+
+</body>
+</html>
+
+
+

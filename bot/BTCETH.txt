@@ -1,0 +1,1 @@
+[{"number_pos": 0, "max_loss": "0"}]

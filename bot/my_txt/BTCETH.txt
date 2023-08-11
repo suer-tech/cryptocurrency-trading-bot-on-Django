@@ -1,0 +1,1 @@
+[{"number_pos": 0, "max_loss": "-9.04"}, {"number_pos": 1, "max_loss": "9.10"}, {"number_pos": 2, "max_loss": "-17.12"}, {"number_pos": 3, "max_loss": "-15.68"}, {"number_pos": 4, "max_loss": "-55.08"}, {"number_pos": 5, "max_loss": "-10.32"}, {"number_pos": 6, "max_loss": "11.32"}, {"number_pos": 7, "max_loss": "-4.13"}]
