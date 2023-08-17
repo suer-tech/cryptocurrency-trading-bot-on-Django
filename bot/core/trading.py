@@ -133,10 +133,10 @@ def my_trading():
                 double(pos_b, -15, 1)
 
             if len(pos_a) > 0:
-                double(pos_a, -45, 2)
+                double(pos_a, -30, 2)
 
             if len(pos_b) > 0:
-                double(pos_b, -45, 2)
+                double(pos_b, -30, 2)
 
             # Закрытие поз A-----------------------------------------------------------------------------
             close_check_a = 0
